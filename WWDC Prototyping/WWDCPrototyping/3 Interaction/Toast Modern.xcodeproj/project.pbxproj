@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		832AC28A191D318500FA99B2 /* Screen.m in Sources */ = {isa = PBXBuildFile; fileRef = 832AC289191D318500FA99B2 /* Screen.m */; };
+		83DB270219186A2A00701B40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DB270119186A2A00701B40 /* Foundation.framework */; };
+		83DB270419186A2A00701B40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DB270319186A2A00701B40 /* CoreGraphics.framework */; };
+		83DB270619186A2A00701B40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DB270519186A2A00701B40 /* UIKit.framework */; };
+		83DB270C19186A2A00701B40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83DB270A19186A2A00701B40 /* InfoPlist.strings */; };
+		83DB270E19186A2A00701B40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DB270D19186A2A00701B40 /* main.m */; };
+		83DB271219186A2A00701B40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DB271119186A2A00701B40 /* AppDelegate.m */; };
+		83DB271419186A2A00701B40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DB271319186A2A00701B40 /* Images.xcassets */; };
+		83E77B5F19187C7800AAD69D /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 83E77B5E19187C7800AAD69D /* Images */; };
+		83F422E0193926EB005829C3 /* Share.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F422DF193926EB005829C3 /* Share.m */; };
+		83FA77081931BE100073E70F /* ToastKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FA77071931BE100073E70F /* ToastKit.m */; };
+		83FB71EB1936A6D100EE5449 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FB71E81936A6D100EE5449 /* List.m */; };
+		83FB71EC1936A6D100EE5449 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FB71EA1936A6D100EE5449 /* Map.m */; };
+		83FB71EF1936B6ED00EE5449 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FB71EE1936B6ED00EE5449 /* Camera.m */; };
+		83FB71F21936BAFC00EE5449 /* KeyboardTyping.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FB71F11936BAFC00EE5449 /* KeyboardTyping.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		832AC288191D318500FA99B2 /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		832AC289191D318500FA99B2 /* Screen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen.m; sourceTree = "<group>"; };
+		83DB26FE19186A2A00701B40 /* Toast Modern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toast Modern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DB270119186A2A00701B40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83DB270319186A2A00701B40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83DB270519186A2A00701B40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83DB270919186A2A00701B40 /* Toast Modern-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Toast Modern-Info.plist"; sourceTree = "<group>"; };
+		83DB270B19186A2A00701B40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83DB270D19186A2A00701B40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83DB270F19186A2A00701B40 /* Toast Modern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Toast Modern-Prefix.pch"; sourceTree = "<group>"; };
+		83DB271019186A2A00701B40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83DB271119186A2A00701B40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83DB271319186A2A00701B40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83E77B5E19187C7800AAD69D /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		83F422DE193926EB005829C3 /* Share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Share.h; sourceTree = "<group>"; };
+		83F422DF193926EB005829C3 /* Share.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Share.m; sourceTree = "<group>"; };
+		83FA77061931BE100073E70F /* ToastKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastKit.h; sourceTree = "<group>"; };
+		83FA77071931BE100073E70F /* ToastKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastKit.m; sourceTree = "<group>"; };
+		83FB71E71936A6D100EE5449 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		83FB71E81936A6D100EE5449 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		83FB71E91936A6D100EE5449 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		83FB71EA1936A6D100EE5449 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		83FB71ED1936B6ED00EE5449 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		83FB71EE1936B6ED00EE5449 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		83FB71F01936BAFC00EE5449 /* KeyboardTyping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardTyping.h; sourceTree = "<group>"; };
+		83FB71F11936BAFC00EE5449 /* KeyboardTyping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardTyping.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83DB26FB19186A2A00701B40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DB270419186A2A00701B40 /* CoreGraphics.framework in Frameworks */,
+				83DB270619186A2A00701B40 /* UIKit.framework in Frameworks */,
+				83DB270219186A2A00701B40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83DB26F519186A2A00701B40 = {
+			isa = PBXGroup;
+			children = (
+				83DB270719186A2A00701B40 /* Code */,
+				83E77B5E19187C7800AAD69D /* Images */,
+				83DB270819186A2A00701B40 /* Supporting Files */,
+				83DB270019186A2A00701B40 /* Frameworks */,
+				83DB26FF19186A2A00701B40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83DB26FF19186A2A00701B40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83DB26FE19186A2A00701B40 /* Toast Modern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83DB270019186A2A00701B40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83DB270119186A2A00701B40 /* Foundation.framework */,
+				83DB270319186A2A00701B40 /* CoreGraphics.framework */,
+				83DB270519186A2A00701B40 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83DB270719186A2A00701B40 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				832AC288191D318500FA99B2 /* Screen.h */,
+				832AC289191D318500FA99B2 /* Screen.m */,
+				83FB71E71936A6D100EE5449 /* List.h */,
+				83FB71E81936A6D100EE5449 /* List.m */,
+				83FB71E91936A6D100EE5449 /* Map.h */,
+				83FB71EA1936A6D100EE5449 /* Map.m */,
+				83F422DE193926EB005829C3 /* Share.h */,
+				83F422DF193926EB005829C3 /* Share.m */,
+				83FB71ED1936B6ED00EE5449 /* Camera.h */,
+				83FB71EE1936B6ED00EE5449 /* Camera.m */,
+				83FB71F01936BAFC00EE5449 /* KeyboardTyping.h */,
+				83FB71F11936BAFC00EE5449 /* KeyboardTyping.m */,
+				83FA77061931BE100073E70F /* ToastKit.h */,
+				83FA77071931BE100073E70F /* ToastKit.m */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		83DB270819186A2A00701B40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83DB271319186A2A00701B40 /* Images.xcassets */,
+				83DB270919186A2A00701B40 /* Toast Modern-Info.plist */,
+				83DB270A19186A2A00701B40 /* InfoPlist.strings */,
+				83DB270D19186A2A00701B40 /* main.m */,
+				83DB271019186A2A00701B40 /* AppDelegate.h */,
+				83DB271119186A2A00701B40 /* AppDelegate.m */,
+				83DB270F19186A2A00701B40 /* Toast Modern-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = Code;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83DB26FD19186A2A00701B40 /* Toast Modern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DB272A19186A2A00701B40 /* Build configuration list for PBXNativeTarget "Toast Modern" */;
+			buildPhases = (
+				83DB26FA19186A2A00701B40 /* Sources */,
+				83DB26FB19186A2A00701B40 /* Frameworks */,
+				83DB26FC19186A2A00701B40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast Modern";
+			productName = Code;
+			productReference = 83DB26FE19186A2A00701B40 /* Toast Modern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83DB26F619186A2A00701B40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Prototyping;
+				TargetAttributes = {
+					83DB26FD19186A2A00701B40 = {
+						DevelopmentTeam = S3KRFCG3SG;
+					};
+				};
+			};
+			buildConfigurationList = 83DB26F919186A2A00701B40 /* Build configuration list for PBXProject "Toast Modern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83DB26F519186A2A00701B40;
+			productRefGroup = 83DB26FF19186A2A00701B40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83DB26FD19186A2A00701B40 /* Toast Modern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83DB26FC19186A2A00701B40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DB270C19186A2A00701B40 /* InfoPlist.strings in Resources */,
+				83E77B5F19187C7800AAD69D /* Images in Resources */,
+				83DB271419186A2A00701B40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83DB26FA19186A2A00701B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F422E0193926EB005829C3 /* Share.m in Sources */,
+				83FB71EF1936B6ED00EE5449 /* Camera.m in Sources */,
+				83FB71EC1936A6D100EE5449 /* Map.m in Sources */,
+				832AC28A191D318500FA99B2 /* Screen.m in Sources */,
+				83FA77081931BE100073E70F /* ToastKit.m in Sources */,
+				83FB71EB1936A6D100EE5449 /* List.m in Sources */,
+				83DB271219186A2A00701B40 /* AppDelegate.m in Sources */,
+				83DB270E19186A2A00701B40 /* main.m in Sources */,
+				83FB71F21936BAFC00EE5449 /* KeyboardTyping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83DB270A19186A2A00701B40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DB270B19186A2A00701B40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83DB272819186A2A00701B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83DB272919186A2A00701B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83DB272B19186A2A00701B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Code/Toast Modern-Prefix.pch";
+				INFOPLIST_FILE = "Code/Toast Modern-Info.plist";
+				PRODUCT_NAME = "Toast Modern";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83DB272C19186A2A00701B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Code/Toast Modern-Prefix.pch";
+				INFOPLIST_FILE = "Code/Toast Modern-Info.plist";
+				PRODUCT_NAME = "Toast Modern";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83DB26F919186A2A00701B40 /* Build configuration list for PBXProject "Toast Modern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DB272819186A2A00701B40 /* Debug */,
+				83DB272919186A2A00701B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DB272A19186A2A00701B40 /* Build configuration list for PBXNativeTarget "Toast Modern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DB272B19186A2A00701B40 /* Debug */,
+				83DB272C19186A2A00701B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83DB26F619186A2A00701B40 /* Project object */;
+}
